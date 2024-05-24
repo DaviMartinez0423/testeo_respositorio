@@ -27,40 +27,6 @@ Welcome to the continuation branch of our project. This branch focuses on proces
 
 The structure of the directories and files is as follows:
 
-
-Entiendo, veamos cómo corregirlo para que funcione correctamente en un archivo README.md:
-
-markdown
-Copiar código
-# Videogames Data Streaming
-
-Welcome to the continuation branch of our project. This branch focuses on processing and managing data obtained by combining a clean DataFrame and a dimensional model using the Apache Kafka and Apache Airflow platforms. This work is an extension of the efforts in the previous branches, where data cleaning (EDA) tasks were performed and the dimensional model was defined.
-
-## System Requirements 🖥️
-
-### Docker:
-- **Operating System:** Compatible with Windows, macOS, and Linux.
-- **Processor:** Should be 64-bit.
-- **RAM:** At least 4 GB is recommended.
-- **Virtualization:** Enable virtualization in the BIOS (such as "Intel VT-x" or "AMD-V").
-
-### Apache Kafka:
-- **64-bit Processor.**
-- **RAM:** At least 4 GB is recommended.
-- **ZooKeeper:** Up to version 2.8.0, Kafka relied on ZooKeeper for coordination. However, starting from version 2.8.0, Kafka supports a mode without ZooKeeper dependency.
-- **Docker:** Docker images for Kafka can be used.
-
-### Apache Airflow:
-- **Python:** Python must be installed on your system.
-- **RAM:** At least 2 GB is recommended.
-- **Operating System:** Compatible with Windows, macOS, and Linux.
-
-**If you want to run the project on your computer, please make sure that your device is compatible with these applications. If it is not, I strongly recommend that you do not run this repository.**
-
-## Project Structure 📃
-
-The structure of the directories and files is as follows:
-
 <pre>
     ├── .gitignore
     ├── README.md
